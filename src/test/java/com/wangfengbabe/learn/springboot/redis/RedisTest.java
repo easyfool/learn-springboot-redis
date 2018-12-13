@@ -25,7 +25,7 @@ public class RedisTest {
     public void testGet() {
         String o = redisUtils.get("hello", String.class);
         System.out.println(o);
-        boolean set = redisUtils.set("hello", "hello world");
+        boolean set = redisUtils.set("hello", "你好");
         System.out.println(set);
 
     }
